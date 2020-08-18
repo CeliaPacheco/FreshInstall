@@ -1,0 +1,175 @@
+[/]
+desktop-effects-unmaximize-transition='easeNone'
+extension-cache-updated=1580581759
+desktop-effects-on-dialogs=false
+desktop-effects-maximize-transition='easeInExpo'
+applet-cache-updated=1566338162
+desktop-effects-map-effect='traditional'
+workspace-osd-duration=400
+desktop-effects-close-effect='traditional'
+panels-enabled=['1:0:top']
+enabled-desklets=@as []
+desktop-effects-unmaximize-time=100
+desktop-effects-map-time=100
+panel-zone-icon-sizes='[{"panelId":1,"left":0,"center":0,"right":0}]'
+desktop-effects-minimize-effect='traditional'
+alttab-switcher-style='coverflow'
+desktop-effects=false
+panels-height=['1:28', '2:40']
+desklet-snap-interval=25
+next-applet-id=25
+desktop-effects-map-transition='easeOutQuad'
+desktop-effects-tile-transition='easeInQuad'
+desktop-effects-unmaximize-effect='none'
+panel-launchers=['DEPRECATED']
+desktop-effects-maximize-time=100
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
+desktop-effects-maximize-effect='none'
+desktop-effects-on-menus=false
+enabled-applets=['panel1:right:5:systray@cinnamon.org:0', 'panel1:left:0:menu@cinnamon.org:1', 'panel1:right:6:keyboard@cinnamon.org:4', 'panel1:right:7:notifications@cinnamon.org:5', 'panel1:right:8:removable-drives@cinnamon.org:6', 'panel1:right:9:network@cinnamon.org:8', 'panel1:right:10:sound@cinnamon.org:9', 'panel1:right:11:power@cinnamon.org:10', 'panel1:center:0:calendar@cinnamon.org:11', 'panel1:right:1:workspace-switcher@cinnamon.org:18', 'panel1:right:4:panel-launchers@cinnamon.org:19', 'panel1:right:0:grouped-window-list@cinnamon.org:22', 'panel1:left:1:show-desktop@cinnamon.org:23', 'panel1:right:2:xapp-status@cinnamon.org:24']
+desktop-effects-minimize-time=160
+alttab-switcher-delay=100
+desktop-effects-tile-effect='none'
+desktop-effects-close-transition='easeOutQuad'
+enabled-extensions=['transparent-panels@germanfr']
+desktop-effects-minimize-transition='easeInQuad'
+panel-edit-mode=false
+panels-show-delay=['1:0', '2:0']
+desklet-cache-updated=1580581589
+desktop-effects-close-time=120
+next-desklet-id=4
+panels-hide-delay=['1:0', '2:0']
+favorite-apps=['firefox.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop', 'org.gnome.Screenshot.desktop']
+workspace-osd-x=50
+workspace-osd-y=50
+desktop-effects-tile-time=100
+panels-autohide=['1:true', '2:false']
+no-adjacent-panel-barriers=true
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=0
+sleep-display-battery=1800
+lid-close-battery-action='suspend'
+lid-close-suspend-with-external-monitor=false
+lid-close-ac-action='suspend'
+sleep-display-ac=1800
+sleep-inactive-battery-timeout=2700
+
+[settings-daemon/plugins/xsettings]
+buttons-have-icons=false
+
+[settings-daemon/peripherals/touchpad]
+motion-threshold=1
+custom-acceleration=false
+horizontal-scrolling=true
+touchpad-enabled=true
+
+[settings-daemon/peripherals/keyboard]
+repeat-interval=uint32 30
+delay=uint32 500
+numlock-state='off'
+
+[settings-daemon/peripherals/mouse]
+drag-threshold=8
+custom-acceleration=false
+motion-threshold=1
+double-click=400
+locate-pointer=true
+
+[muffin]
+desktop-effects=false
+resize-threshold=24
+tile-hud-threshold=25
+workspace-cycle=true
+
+[desktop/interface]
+text-scaling-factor=1.0
+cursor-size=24
+cursor-blink-time=1200
+icon-theme='Mint-Y-Blue'
+gtk-theme='Mint-X-Blue'
+toolkit-accessibility=true
+
+[desktop/keybindings/media-keys]
+volume-down-quiet=['<Alt>XF86AudioLowerVolume', '<Alt>Down']
+volume-up-quiet=['<Alt>XF86AudioRaiseVolume', '<Alt>Up']
+mute-quiet=['XF86AudioMute', '<Alt>Right']
+
+[desktop/keybindings/wm]
+minimize=['<Shift><Alt>F5']
+
+[desktop/media-handling]
+autorun-x-content-start-app=['x-content/unix-software', 'x-content/image-dcf']
+autorun-never=false
+autorun-x-content-ignore=@as []
+autorun-x-content-open-folder=['x-content/image-dcf']
+
+[desktop/screensaver]
+lock-enabled=true
+
+[desktop/applications/calculator]
+exec='gnome-calculator'
+
+[desktop/applications/terminal]
+exec='guake'
+
+[desktop/notifications]
+bottom-notifications=true
+
+[desktop/wm/preferences]
+min-window-opacity=30
+button-layout=':minimize,maximize,close'
+theme='Mint-Y-Dark-Blue'
+num-workspaces=4
+workspace-names=@as []
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=true
+screen-reader-enabled=false
+
+[desktop/a11y/keyboard]
+slowkeys-beep-press=true
+mousekeys-accel-time=1200
+bouncekeys-beep-reject=true
+slowkeys-beep-reject=false
+disable-timeout=120
+enable=false
+bouncekeys-enable=false
+stickykeys-enable=false
+feature-state-change-beep=false
+slowkeys-beep-accept=true
+bouncekeys-delay=300
+mousekeys-max-speed=750
+togglekeys-enable-osd=true
+mousekeys-enable=false
+timeout-enable=false
+slowkeys-delay=300
+stickykeys-modifier-beep=true
+stickykeys-two-key-off=true
+mousekeys-init-delay=160
+slowkeys-enable=false
+
+[desktop/a11y/mouse]
+secondary-click-enabled=false
+secondary-click-time=1.2
+dwell-time=1.2
+dwell-threshold=10
+dwell-click-enabled=false
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/background]
+picture-uri='file:///home/celia/Pictures/variety-copied-wallpaper-cf52fcba56b7956d377659765ddb4d6e.jpg'
+
+[desktop/background/slideshow]
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint.xml'
+delay=15
+
+[theme]
+symbolic-relative-size=0.67000000000000004
+theme-cache-updated=1575954900
+name='Mint-Y-Dark-Blue'
+
+[cinnamon-session]
+quit-time-delay=60
