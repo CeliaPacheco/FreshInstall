@@ -18,6 +18,6 @@ flatpak install -y --noninteractive flathub io.neovim.nvim;
 
 
 tput setaf 1; echo "Setting up Cinnamon, Log out after"; tput sgr0
-curl https://raw.githubusercontent.com/CeliaPacheco/FreshInstall/master/cinnamon_desktop
+curl https://raw.githubusercontent.com/CeliaPacheco/FreshInstall/master/cinnamon_desktop > cinnamon_desktop
 dconf load /org/cinnamon/ < cinnamon_desktop
 rm cinnamon_desktop
