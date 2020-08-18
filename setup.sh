@@ -10,11 +10,11 @@ flatpak install -y --noninteractive flathub com.spotify.Client;
 flatpak install -y --noninteractive flathub com.mattermost.Desktop; 
 flatpak install -y --noninteractive flathub io.neovim.nvim;
 
-flatpak run com.spotify.Client; 
-flatpak run com.mattermost.Desktop; 
-flatpak run io.neovim.nvim;
+#flatpak run com.spotify.Client; 
+#flatpak run com.mattermost.Desktop; 
+#flatpak run io.neovim.nvim;
 
-apt install guake;
+#apt install guake;
 
 
 tput setaf 1; echo "Setting up Cinnamon, Log out after"; tput sgr0
