@@ -11,3 +11,8 @@ flatpack run com.spotify.Client com.mattermost.Desktop io.neovim.nvim
 
 apt install guake
 
+
+tput setaf 1; echo "Setting up Cinnamon, Log out after"; tput sgr0
+curl https://raw.githubusercontent.com/CeliaPacheco/FreshInstall/master/cinnamon_desktop
+dconf load /org/cinnamon/ < cinnamon_desktop
+rm cinnamon_desktop
