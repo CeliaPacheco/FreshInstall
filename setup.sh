@@ -6,8 +6,8 @@ sudo apt update && sudo apt upgrade -y
 
 tput setaf 1; echo "Install flatpack packages"; tput sgr0
 
-flatpack install flathub com.spotify.Client com.mattermost.Desktop io.neovim.nvim
-flatpack run com.spotify.Client com.mattermost.Desktop io.neovim.nvim
+flatpak install flathub com.spotify.Client com.mattermost.Desktop io.neovim.nvim
+flatpak run com.spotify.Client com.mattermost.Desktop io.neovim.nvim
 
 apt install guake
 
