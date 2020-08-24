@@ -12,8 +12,8 @@ Steps:
 3. Open `init.vim` and run plug install
 4. Set up Rclone
 5. Install Display Link Driver for docking station
-  a. Download driver from [here](https://www.displaylink.com/downloads/ubuntu)
-  b. `cd Downloads`
-  c. `unzip <file>`
-  d. `sudo chmod +x <file>`
-  e. `sudo ./<file>`
+    * Download driver from [here](https://www.displaylink.com/downloads/ubuntu)
+    * `cd Downloads`
+    * `unzip <file>`
+    * `sudo chmod +x <file>`
+    * `sudo ./<file>`
