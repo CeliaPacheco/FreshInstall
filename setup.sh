@@ -17,13 +17,21 @@ curl https://raw.githubusercontent.com/CeliaPacheco/FreshInstall/master/cinnamon
 dconf load /org/cinnamon/ < cinnamon_desktop
 rm cinnamon_desktop
 
-
-tput setaf 1; echo "Downloading Nvim init file"; tput sgr0
-curl https://raw.githubusercontent.com/CeliaPacheco/FreshInstall/master/init.vim > init.vim
-mv init.vim ~/.config/nvim
+#Probably not needed because Home dir is on separate drive so dot files stay there
+#tput setaf 1; echo "Setting up NeoVim"; tput sgr0
+#curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
+#    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+#
+#curl https://raw.githubusercontent.com/CeliaPacheco/FreshInstall/master/init.vim > init.vim
+#mv init.vim ~/.config/nvim
 
 
 
 tput setaf 1; echo "Installing apt packages"; tput sgr0
 apt install guake;
+apt install variety;
+apt install luckybackup
 
+
+tput setaf 1; echo "Installing Rclone"; tput sgr0
+curl https://rclone.org/install.sh | sudo bash
